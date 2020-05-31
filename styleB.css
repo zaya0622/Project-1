@@ -1,0 +1,53 @@
+body{
+	margin: 0px;
+	font-size: 40px;
+	font-family: Tahoma;
+}
+.A{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.F1{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	right: 0;
+}
+.A1,.A2{
+	flex: 0 0 auto;
+	background-color: #eeeff2;
+	width: 90px;
+	height: 150px;
+	margin: 10px;
+	border-left-style: dotted;
+	border-width: 10px;
+	border-color: #D0D0FF;
+}
+
+.F1{
+	background-color: #eeeff2;
+	width: 90px;
+	height: 150px;
+	margin: 10px;
+	border-left-style: dotted;
+	border-width: 10px;
+	border-color: #D0D0FF;
+}
+
+p{
+	margin: 10px;
+}
+.A1:hover{ 
+background-color: yellow;
+cursor: pointer;
+ }
+.A2:hover{ 
+background-color: yellow;
+cursor: pointer;
+ }
+ .F1:hover{
+ 	background-color: yellow;
+cursor: pointer;
+ }
