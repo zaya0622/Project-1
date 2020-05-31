@@ -1,0 +1,42 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+.A{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+align-items: center;
+height: 100%;
+justify-content: space-between;
+}
+
+.A1,.A2,.F1{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	border-top: solid #687291 1px; 
+}
+.A1{
+	background-color: #dfe1e7;
+}
+.A2{
+	background-color:  #eeeff2;
+}
+.F1{
+	background-color:  #687291;
+	border: solid black 4px;
+
+}
+
+p{
+	margin-top: 5px;
+	font-size: 40px;
+	font-family:Tahoma;
+}
+.Fp{
+	text-align: center;
+	margin-top: 26px;
+}
